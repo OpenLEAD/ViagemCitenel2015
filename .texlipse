@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Thu Aug 20 11:00:57 BRT 2015
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=main.tex
+outputFile=citenel2015.pdf
+langSpell=pt
+markDer=true
+srcDir=
