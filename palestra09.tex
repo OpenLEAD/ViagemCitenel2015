@@ -1,0 +1,19 @@
+
+\textbf{Rede de Sensores Passivos para Medição de Integridade de Equipamentos em
+Sistemas de Energia com Transmissão sem Fio :}
+
+A rede de sensores foi utilizada para medir temperatura de disjuntores e buchas,
+porém poderiam ter sido utilizados outros sensores. Os sensores eram baseados em
+tecnologia SAW (Surface Acoustic Wave) constituido por um cristal piezoelétrico
+que gera uma resposta final similar ao RFID.
+
+A rede foi contruída sobre um protocolo ZigBee para compatibilizar o baixo
+consumo como resiliência, visto que ZigBee suporta \textit{full mesh}. Os
+roteadores ZigBee possuiam capacidade de transmitir ao nó central em RS232 ou
+fibra otica, onde foi escolhido a ultima devido a problemas com interferência
+eletromagnética.
+
+O desafio técnico enfrentado foi a criação de um hardware baseado em FPGA para
+sincronizar a resposta dos sensores e evitar colisões que degradassem a
+comunicação. Além dos sensores de temperatura, ao final, o palestrante também
+comentou o uso de sensores de deformação.
